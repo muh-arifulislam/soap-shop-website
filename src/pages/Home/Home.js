@@ -1,5 +1,6 @@
 import React from 'react'; 
 import Product from '../shared/Product';
+import Description from './Description';
 import Ingedients from './Ingedients';
 const Home = () => {
     return (
@@ -10,6 +11,8 @@ const Home = () => {
                 <Product></Product>
                 <Product></Product>
             </div>
+            <Description></Description>
+            
         </div>
     );
 };
