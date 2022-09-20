@@ -1,6 +1,7 @@
 import React from 'react'; 
 import Product from '../shared/Product';
 import Description from './Description';
+import EcommercePartner from './EcommercePartner';
 import Ingedients from './Ingedients';
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                 <Product></Product>
             </div>
             <Description></Description>
-            
+            <EcommercePartner></EcommercePartner>
         </div>
     );
 };
